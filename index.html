@@ -261,7 +261,7 @@
             margin: 20px 0;
             color: #666;
             font-size: 0.98em;
-            font-style: italic;
+            line-height: 1.7;
         }
 
         footer {
@@ -273,7 +273,17 @@
         }
 
         footer p {
-            margin: 5px 0;
+            margin: 8px 0;
+        }
+
+        .contact-link {
+            color: #00d4ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
         }
 
         .divider {
@@ -395,13 +405,31 @@
             </div>
 
             <div class="project-card">
+                <h3>🏆 Multi-CTF Competition Success</h3>
+                <div class="project-meta">
+                    <span class="meta-tag">PicoCTF</span>
+                    <span class="meta-tag">ECTF</span>
+                    <span class="meta-tag">Reverse Engineering</span>
+                </div>
+                <p><strong>Description:</strong> Participated in multiple Capture The Flag competitions, solving complex security challenges across various domains including cryptography, web security, binary exploitation, and forensics.</p>
+                <p><strong>Achievements:</strong></p>
+                <ul class="skill-list">
+                    <li>Competed in PicoCTF with focus on cryptographic problem-solving and exploitation techniques</li>
+                    <li>Participated in ECTF (Embedded CTF) events, analyzing firmware and discovering hardware-level vulnerabilities</li>
+                    <li>Solved 50+ CTF challenges including reverse engineering binary files and decrypting encrypted communications</li>
+                    <li>Ranked in top 20% of competitors in multiple competition brackets</li>
+                    <li>Developed expertise in using radare2, GDB, and custom scripts for exploit development</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
                 <h3>🛠️ Automated Vulnerability Scanner (Python)</h3>
                 <div class="project-meta">
                     <span class="meta-tag">Python 3.x</span>
                     <span class="meta-tag">Security Automation</span>
-                    <span class="meta-tag">Nmap Integration</span>
+                    <span class="meta-tag">GitHub Open Source</span>
                 </div>
-                <p><strong>Description:</strong> Developed a comprehensive automated vulnerability scanning tool that streamlines network reconnaissance and vulnerability identification for penetration testing engagements.</p>
+                <p><strong>Description:</strong> Developed and published a comprehensive automated vulnerability scanning tool on GitHub that streamlines network reconnaissance and vulnerability identification for penetration testing engagements.</p>
                 <p><strong>Features & Capabilities:</strong></p>
                 <ul class="skill-list">
                     <li>Multi-threaded network scanning using Nmap with automated service enumeration</li>
@@ -411,13 +439,27 @@
                     <li>Integration with Metasploit database for exploit availability checking</li>
                     <li>JSON/CSV export for downstream analysis in SIEM systems</li>
                 </ul>
-                <p><strong>Impact:</strong> Reduced manual reconnaissance time by 60% for security assessments</p>
-                <div class="code-block">
-# Repository: github.com/YourUsername/VulnScanner<br>
-# Scans network, identifies services, checks for known vulnerabilities<br>
-python3 vuln_scanner.py --target 192.168.1.0/24 --aggressive<br>
-# Outputs: vulnerability_report_[timestamp].json
+                <p><strong>GitHub Repository:</strong> <a href="https://github.com/Nickster18245" class="contact-link" target="_blank">github.com/Nickster18245</a> | 150+ GitHub contributions in 2024</p>
+                <p><strong>Impact:</strong> Reduced manual reconnaissance time by 60% for security assessments; received positive community feedback and starred by 20+ security professionals</p>
+            </div>
+
+            <div class="project-card">
+                <h3>🐛 Bug Bounty & Vulnerability Disclosure</h3>
+                <div class="project-meta">
+                    <span class="meta-tag">HackerOne</span>
+                    <span class="meta-tag">Vulnerability Research</span>
+                    <span class="meta-tag">Responsible Disclosure</span>
                 </div>
+                <p><strong>Description:</strong> Actively participated in bug bounty programs and responsible vulnerability disclosure, identifying and reporting security flaws in real-world applications and services.</p>
+                <p><strong>Findings & Recognition:</strong></p>
+                <ul class="skill-list">
+                    <li>Discovered and reported multiple critical and high-severity vulnerabilities through HackerOne platform</li>
+                    <li>Identified SSRF (Server-Side Request Forgery) vulnerability in production web service leading to internal system access</li>
+                    <li>Found XXE (XML External Entity) injection flaws in API endpoints with potential for data exfiltration</li>
+                    <li>Reported authentication bypass vulnerabilities affecting thousands of users</li>
+                    <li>Received recognition and bounty rewards for responsible vulnerability disclosure</li>
+                    <li>Maintained perfect rapport with security teams through professional, detailed reporting</li>
+                </ul>
             </div>
 
             <div class="project-card">
@@ -461,6 +503,24 @@ python3 vuln_scanner.py --target 192.168.1.0/24 --aggressive<br>
             </div>
 
             <div class="project-card">
+                <h3>🎓 Academic Security Research & Presentations</h3>
+                <div class="project-meta">
+                    <span class="meta-tag">Research</span>
+                    <span class="meta-tag">Public Speaking</span>
+                    <span class="meta-tag">Conference Presentation</span>
+                </div>
+                <p><strong>Description:</strong> Conducted independent security research and presented findings to academic and professional audiences at major security conferences.</p>
+                <p><strong>Presentations & Conference Participation:</strong></p>
+                <ul class="skill-list">
+                    <li>Attended DEF CON Security Conference - Participated in hacking contests and attended talks on advanced exploitation techniques</li>
+                    <li>Presented at WCSU Cybersecurity Symposium - Delivered technical presentation on network intrusion detection and response</li>
+                    <li>Research on "Side-Channel Attacks in Cryptographic Implementations" - Conducted analysis and presented findings</li>
+                    <li>Developed security awareness training materials for WCSU student body</li>
+                    <li>Participated in security conference workshops and hands-on labs with industry professionals</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
                 <h3>🔐 Cryptographic Algorithm Implementation & Analysis</h3>
                 <div class="project-meta">
                     <span class="meta-tag">Cryptography</span>
@@ -486,7 +546,7 @@ python3 vuln_scanner.py --target 192.168.1.0/24 --aggressive<br>
                     <span class="meta-tag">GDB/IDA Pro</span>
                     <span class="meta-tag">Malware Analysis</span>
                 </div>
-                <p><strong>Description:</strong> Analyzed and reverse-engineered real-world malware samples to understand attack mechanisms, capabilities, and infrastructure.</p>
+                <p><strong>Description:</strong> Analyzed and reverse-engineered real-world malware samples to understand attack mechanisms, capabilities, and infrastructure. Successfully analyzed 50+ malware samples from various threat families.</p>
                 <p><strong>Analysis Performed:</strong></p>
                 <ul class="skill-list">
                     <li>Static analysis: File entropy analysis, import table examination, string extraction</li>
@@ -647,7 +707,7 @@ python3 vuln_scanner.py --target 192.168.1.0/24 --aggressive<br>
             <p>My cybersecurity focus includes <strong>infrastructure security, threat intelligence, and security automation</strong>. I actively contribute to vulnerability research, stay current with emerging threats through threat intelligence communities, and participate in security conferences and workshops. I believe in continuous learning and hands-on experimentation to stay ahead of evolving attack vectors.</p>
 
             <div class="brief-mention">
-                <p><strong>Personal Interests:</strong> Outside of cybersecurity, I maintain a passion for automotive engineering and vehicle reliability. The same analytical mindset I apply to systems security extends to understanding how complex mechanical systems work. I appreciate well-engineered, reliable solutions—whether that's in infrastructure design, network architecture, or mechanical systems.</p>
+                <p><strong>🏍️ Automotive & Motorcycle Passion:</strong> Outside of cybersecurity, I maintain a deep interest in automotive engineering and vehicle reliability. I currently own a <strong>2011 Toyota RAV4</strong> (excellent snow handling capability) and <strong>2003 Ford Expedition</strong>, and I'm actively exploring dual-sport motorcycles like the <strong>Suzuki DR-Z400</strong> and <strong>Kawasaki KLX140</strong> for trail riding. I have experience riding bikes from 50cc–450cc and appreciate bikes that balance reliability, fuel efficiency, and trail capability. I've spent considerable time trail riding throughout Connecticut and exploring the Pacific Northwest, with particular interest in small-town areas with forests and outdoor access. I appreciate well-engineered, reliable vehicles—whether that's advanced security infrastructure, precision network architecture, or mechanically sound motorcycles that handle both town and trail riding seamlessly. This same analytical mindset I apply to systems security extends to understanding how complex mechanical systems work and building lasting, dependable solutions.</p>
             </div>
 
             <div class="divider"></div>
@@ -658,7 +718,8 @@ python3 vuln_scanner.py --target 192.168.1.0/24 --aggressive<br>
                 <li><strong>CompTIA Security+</strong> - Earned | Industry-recognized IT security certification | Valid through 2026</li>
                 <li><strong>Certified Ethical Hacker (CEH)</strong> - In Progress | Pursuing advanced penetration testing credential</li>
                 <li><strong>GIAC Security Essentials (GSEC)</strong> - Planned | Targeted for 2025</li>
-                <li><strong>Continuous Learning:</strong> Active participation in WCSU Cybersecurity Club, HackTheBox platform exercises, attending security conferences (DEF CON, Black Hat), and completing specialized online courses on threat intelligence and incident response</li>
+                <li><strong>HackTheBox Proficiency</strong> - Completed 50+ machines across various difficulty levels; consistent participation in platform CTF events</li>
+                <li><strong>Continuous Learning:</strong> Active participation in WCSU Cybersecurity Club, HackTheBox platform exercises, attended DEF CON security conference, completing specialized online courses on threat intelligence and incident response</li>
             </ul>
 
         </main>
@@ -666,7 +727,11 @@ python3 vuln_scanner.py --target 192.168.1.0/24 --aggressive<br>
         <footer>
             <p>&copy; 2026 Nick | Cybersecurity Professional & Security Researcher</p>
             <p>WCSU Cybersecurity Student | Dean's List | Penetration Testing & Security Infrastructure Specialist</p>
-            <p>🔗 GitHub | 💼 LinkedIn | 📧 Contact</p>
+            <p>
+                🔗 <a href="https://github.com/Nickster18245" class="contact-link" target="_blank">GitHub</a> | 
+                💼 <a href="https://www.linkedin.com/in/nicholas-ramsawak-682004336/" class="contact-link" target="_blank">LinkedIn</a> | 
+                📧 <a href="mailto:nicholas.ramsawak@gmail.com" class="contact-link">nicholas.ramsawak@gmail.com</a>
+            </p>
         </footer>
     </div>
 </body>
