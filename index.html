@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nickster - Cybersecurity Student | Car & Motorcycle Enthusiast</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .info-item strong {
+            color: #667eea;
+        }
+
+        section {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        section h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        section h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .skill-list, .interest-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .skill-tag, .interest-tag {
+            background: #f0f4ff;
+            border: 2px solid #667eea;
+            border-radius: 25px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #667eea;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover, .interest-tag:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .car-card, .bike-card {
+            background: #f8f9fa;
+            border-left: 4px solid #764ba2;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .car-card h4, .bike-card h4 {
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+
+        .achievements {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .achievement {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .achievement strong {
+            display: block;
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 Nickster</h1>
+            <p>Cybersecurity Student | Car & Motorcycle Enthusiast | Tech Learner</p>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>🎓 Field:</strong> Cybersecurity
+                </div>
+                <div class="info-item">
+                    <strong>🎂 Age:</strong> 19 years old
+                </div>
+                <div class="info-item">
+                    <strong>📍 Interest:</strong> Small-town living in Maine
+                </div>
+                <div class="info-item">
+                    <strong>🚀 Current Goal:</strong> Growing in tech & learning archives
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <h2>🛠️ Technical Skills</h2>
+            <p style="margin-bottom: 20px;">I'm building my foundation in programming and cybersecurity:</p>
+            <div class="skill-list">
+                <div class="skill-tag">HTML</div>
+                <div class="skill-tag">CSS</div>
+                <div class="skill-tag">Java</div>
+                <div class="skill-tag">C++</div>
+                <div class="skill-tag">Cybersecurity</div>
+            </div>
+            <h3>📚 Academic Achievements</h3>
+            <div class="achievements">
+                <div class="achievement">
+                    <strong>High School</strong>
+                    Honor Rolls
+                </div>
+                <div class="achievement">
+                    <strong>Freshman Year</strong>
+                    Dean's List
+                </div>
+                <div class="achievement">
+                    <strong>Opportunity</strong>
+                    Work-Study Eligible
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🚗 Vehicles & Automotive Interests</h2>
+            
+            <h3>Current Vehicles</h3>
+            <div class="car-card">
+                <h4>2011 Toyota RAV4</h4>
+                <p>Excellent in snowy hill handling. Perfect for winter conditions and daily reliability.</p>
+            </div>
+            <div class="car-card">
+                <h4>2003 Ford Expedition</h4>
+                <p>Great towing capacity for ATVs and other equipment.</p>
+            </div>
+
+            <h3>Dream Vehicles & Interests</h3>
+            <p><strong>Classic Sports Cars:</strong> I'm drawn to reliable, easy-to-work-on vehicles with character. My favorites include:</p>
+            <div class="car-card">
+                <h4>🏆 Mitsubishi 3000GT (1998/1999 SOHC)</h4>
+                <p>Reliability champion. Especially love the 1999 body style with the 1993 front end design. The pop-up headlights and interior styling are iconic. Goal: Build one to be extremely reliable.</p>
+            </div>
+            <div class="car-card">
+                <h4>Nissan 180SX</h4>
+                <p>Love the styling, pop-up headlights, and unique interior.</p>
+            </div>
+            <div class="car-card">
+                <h4>Mazda MX-6 & Ford Probe</h4>
+                <p>Similar aesthetic appeal - style over raw performance.</p>
+            </div>
+
+            <p style="margin-top: 20px;"><strong>Truck Preferences:</strong> Small to medium trucks from Chevrolet and Toyota with excellent fuel efficiency for towing ATVs and dirt bikes.</p>
+
+            <p style="margin-top: 20px;"><strong>Philosophy:</strong> I care more about looks and reliability than performance. I want a running project car that's still dependable.</p>
+        </section>
+
+        <section>
+            <h2>🏍️ Motorcycles & ATVs</h2>
+            <p style="margin-bottom: 20px;">Experienced with 50cc–450cc bikes. Looking for reliable, fuel-efficient machines for town, trails, and occasional highway use.</p>
+
+            <h3>Favorite Brands</h3>
+            <div class="interest-list">
+                <div class="interest-tag">Honda</div>
+                <div class="interest-tag">Yamaha</div>
+                <div class="interest-tag">Suzuki</div>
+                <div class="interest-tag">Kawasaki</div>
+            </div>
+
+            <h3>Dream Bikes & ATVs</h3>
+            <div class="bike-card">
+                <h4>🏅 Suzuki DR-Z400</h4>
+                <p>Dual-sport perfection. Trail-capable, highway-capable, reliable, cheap, and efficient.</p>
+            </div>
+            <div class="bike-card">
+                <h4>Kawasaki KLX140 & KLX300</h4>
+                <p>Great for my size (5'8", 120–130 lbs). Reliable and versatile.</p>
+            </div>
+            <div class="bike-card">
+                <h4>Yamaha TTR230</h4>
+                <p>Solid choice for town and trail riding.</p>
+            </div>
+            <div class="bike-card">
+                <h4>Honda XR400 & XR600</h4>
+                <p>Proven reliability and trail performance.</p>
+            </div>
+            <div class="bike-card">
+                <h4>350cc Motorcycles</h4>
+                <p>Looking for reliable, cheap, highway-capable, trail-friendly options from Kawasaki, Suzuki, Honda, or Yamaha. Ideally liquid-cooled with 6-speed transmission.</p>
+            </div>
+
+            <h3>ATVs</h3>
+            <div class="interest-list">
+                <div class="interest-tag">Honda Rincon</div>
+                <div class="interest-tag">Yamaha Grizzly</div>
+                <div class="interest-tag">Kawasaki Prairie</div>
+            </div>
+
+            <h3>Towing Needs</h3>
+            <p>ATVs, dirt bikes, and possibly small logs. Vehicles and bikes are chosen with towing capability in mind.</p>
+        </section>
+
+        <section>
+            <h2>🌲 Lifestyle & Location</h2>
+            <p>I'm drawn to areas with small-town charm, especially in <strong>Maine</strong>. My ideal location has:</p>
+            <div class="interest-list">
+                <div class="interest-tag">Small-town Charm</div>
+                <div class="interest-tag">Forests</div>
+                <div class="interest-tag">Affordability</div>
+                <div class="interest-tag">Good Jobs</div>
+                <div class="interest-tag">Greenery</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>💼 Entrepreneurship & Professional Interests</h2>
+            
+            <h3>The Detail Depot</h3>
+            <p>I'm interested in creating a mobile detailing company. I've already developed:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Standard Operating Procedures (SOP)</li>
+                <li>Business framework and planning</li>
+                <li>Focus on quality and customer service</li>
+            </ul>
+
+            <h3>Other Interests</h3>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>🏛️ <strong>Archives:</strong> Want to learn more about archival work and preservation</li>
+                <li>📋 <strong>Code of Ethics:</strong> Developing personal professional standards</li>
+                <li>⏰ <strong>Work-Life Balance:</strong> Seeking work-study opportunities with time for studying and friends</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>✨ About Me</h2>
+            <p>I'm a 19-year-old cybersecurity student at WCSU with a passion for reliable machines, both on the road and in the digital world. I value learning, hands-on experience, and honest communication.</p>
+            
+            <p style="margin-top: 15px;">While I didn't participate in sports during high school, I've developed discipline through academic achievement and technical learning. I approach professors with thoughtful, indirect questions about course materials and prefer building real-world skills.</p>
+
+            <p style="margin-top: 15px;">I'm comfortable working on projects—whether it's building a dream car, learning new programming languages, or starting a business. I believe in doing things right, building reliability into everything I touch, and maintaining ethical standards in all areas of life.</p>
+
+            <p style="margin-top: 15px;"><strong>Fun Fact:</strong> I particularly love the purple AC animation icon! 💜</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Nickster | Cybersecurity Student & Enthusiast</p>
+            <p>Based in/interested in Maine | Tech, Cars, and Bikes</p>
+        </footer>
+    </div>
+</body>
+</html>
